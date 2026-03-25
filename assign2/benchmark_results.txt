@@ -1,0 +1,33 @@
+Benchmark Results - Mon Feb 23 07:22:05 PM IST 2026
+==========================================
+
+Program                   | Threads  | Schedule           | Time (sec)
+--------------------------------------------------------------------------------
+TempGrid_HW3_omp          | 1        | static             | 10.317222466
+TempGrid_HW3_omp          | 1        | static,10          | 10.172702304
+TempGrid_HW3_omp          | 1        | static,50          | 10.402088300
+TempGrid_HW3_omp          | 1        | static,100         | 10.381444159
+TempGrid_HW3_omp          | 1        | dynamic            | 103.089319567
+TempGrid_HW3_omp          | 1        | dynamic,10         | 19.361805161
+TempGrid_HW3_omp          | 1        | dynamic,50         | 12.154624460
+TempGrid_HW3_omp          | 1        | dynamic,100        | 11.247669960
+TempGrid_HW3_omp          | 1        | guided             | 10.267472365
+TempGrid_HW3_omp          | 1        | guided,10          | 10.369022380
+TempGrid_HW3_omp          | 1        | guided,50          | 10.567535938
+TempGrid_HW3_omp          | 1        | guided,100         | 10.394490168
+TempGrid_HW3_omp          | 2        | static             | 5.852804776
+TempGrid_HW3_omp          | 2        | static,10          | 9.991224149
+TempGrid_HW3_omp          | 2        | static,50          | 7.569388578
+TempGrid_HW3_omp          | 2        | static,100         | 7.496685516
+TempGrid_HW3_omp          | 2        | dynamic            | 276.646792212
+TempGrid_HW3_omp          | 2        | dynamic,10         | 32.235469908
+TempGrid_HW3_omp          | 2        | dynamic,50         | 11.387331919
+TempGrid_HW3_omp          | 2        | dynamic,100        | 8.906083672
+TempGrid_HW3_omp          | 2        | guided             | 5.683281608
+TempGrid_HW3_omp          | 2        | guided,10          | 5.934072778
+TempGrid_HW3_omp          | 2        | guided,50          | 5.968202660
+TempGrid_HW3_omp          | 2        | guided,100         | 5.679677089
+TempGrid_HW3_omp          | 4        | static             | 7.222084723
+TempGrid_HW3_omp          | 4        | static,10          | 10.371927438
+TempGrid_HW3_omp          | 4        | static,50          | 8.843143685
+TempGrid_HW3_omp          | 4        | static,100         | 8.510396463
